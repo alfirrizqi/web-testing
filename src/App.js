@@ -10,8 +10,8 @@ function App() {
     <> 
     <Navbar/>
     <div class='body1'>
-   <MidText />
-   <Service />
+    <MidText />
+    <Service />
     </div>
     </>
   );
