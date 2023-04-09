@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #263a53;
+/* body {
+  /* background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)); */
+  /* background-image: url(/web-testing/src/assets/249547.jpg); */
+
+
+.body1 {
+  background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(../src/assets/gambar1.jpg);
+  background-position: center;
 }
