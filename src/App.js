@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import MidText from './components/MidText'
 import Service from './components/Service'
 import About from './components/About'
-
+import Newsletter from './components/Newsletter'
 
 function App() {
   return (
@@ -18,6 +18,10 @@ function App() {
     <div class='body2'>
     <About/>
     </div>
+    <div class='bg-black'>
+    <Newsletter/>   
+    </div>
+     
     </>
   );
 }
