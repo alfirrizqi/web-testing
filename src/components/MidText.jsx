@@ -1,11 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Button from './button';
 
 const MidText = () => {
     return (
         <div className='text-white'>
-            <div className='max-w-[800px] mt-[-96px] w-full h-screen text-3xl mx-auto text-center flex flex-col justify-center'>
-             <p className='text-[#35e1e3] font-bold p-2'>WELCOME TO REACT AVIATION</p>   
+            <div className='max-w-[800px] mt-[-96px] w-full h-screen text-3xl mx-auto text-center flex flex-col justify-center py-10'>
+             <p className='text-[#35e1e3] font-bold p-10'>WELCOME TO REACT AVIATION</p>   
              <h1 className='md:text-3xl sm:text-4xl text-xl font-bold md:py-6'>
                 FIRST CLASS PRIVATE JET CHARTERS AND SPECIALIZED IN MID TO LARGE CORPORATE PRIVATE JET AND HELICOPTER CHARTER</h1>
              <div className='flex justify-center items-center'>
@@ -19,8 +20,12 @@ const MidText = () => {
                 loop
                 />
              </div>
-             <p className='md:text-2xl text-xl font-bold text-gray-500 py-3'>UNRIVALLED Service beyond expectations </p>
-             <button className='bg-[#35e1e3] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'> Get Started</button>
+             <p className='md:text-2xl text-xl font-bold text-gray-500 py-2'>UNRIVALLED Service beyond expectations </p>
+             {/* <button className='bg-[#35e1e3] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'> Get Started</button> */}
+            <div className='flex justify-center items-center mx-auto my-10'>
+              <Button/>  
+            </div>
+            
 
             </div>
 

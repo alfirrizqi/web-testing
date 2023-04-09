@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import MidText from './components/MidText'
 import Service from './components/Service'
-
+import About from './components/About'
 
 
 function App() {
@@ -10,8 +10,13 @@ function App() {
     <> 
     <Navbar/>
     <div class='body1'>
-    <MidText />
-    <Service />
+    <MidText /> 
+    </div>
+    <div class='bodyMid'>
+    <Service /> 
+    </div>
+    <div class='body2'>
+    <About/>
     </div>
     </>
   );

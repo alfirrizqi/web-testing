@@ -12,3 +12,15 @@
   background-position: auto;
 }
 
+.body2 {
+  background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(../src/assets/gambar3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bodyMid {
+  background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(../src/assets/gambar8.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
