@@ -9,5 +9,5 @@
 
 .body1 {
   background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(../src/assets/gambar1.jpg);
-  background-position: center;
+  background-position: auto;
 }
