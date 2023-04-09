@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
- 
+
 const MidText = () => {
     return (
         <div className='text-white'>
@@ -13,7 +13,7 @@ const MidText = () => {
                     PRIVATE JET FLIGHTS FOR 
                 </p>
                 <Typed className='md:text-1xl sm:text-1xl text-xl font-bold pl-3 text-[#35e1e3]'
-                strings={['BUSINESS TRAVEL', 'HOLIDAYS', 'MEDEVAC', 'SURVEILLANCE']} 
+                strings={['BUSINESS TRAVEL', 'HOLIDAYS', 'MEDEVAC']} 
                 typeSpeed={120} 
                 backSpeed={140} 
                 loop
@@ -21,6 +21,7 @@ const MidText = () => {
              </div>
              <p className='md:text-2xl text-xl font-bold text-gray-500 py-3'>UNRIVALLED Service beyond expectations </p>
              <button className='bg-[#35e1e3] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'> Get Started</button>
+
             </div>
 
         </div>
