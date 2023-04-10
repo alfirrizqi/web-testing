@@ -4,6 +4,8 @@ import MidText from './components/MidText'
 import Service from './components/Service'
 import About from './components/About'
 import Newsletter from './components/Newsletter'
+import Contact from './components/Contact'
+
 
 function App() {
   return (
@@ -18,8 +20,11 @@ function App() {
     <div class='body2'>
     <About/>
     </div>
-    <div class='bg-black'>
+    <div class='bg-[#23282f]'>
     <Newsletter/>   
+    </div>
+    <div class='bg-white'>
+    <Contact/>
     </div>
      
     </>

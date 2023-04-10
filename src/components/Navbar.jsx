@@ -15,7 +15,6 @@ const Navbar = () => {
                 <li class='p-4'>HOME</li>
                 <li class='p-4'>SERVICES</li>
                 <li class='p-4'>ABOUT</li>
-                <li class='p-4'>CAREER</li>
                 <li class='p-4'>CONTACT</li>
                 <li class='p-4'>LOGIN</li>
             </ul>
@@ -29,7 +28,6 @@ const Navbar = () => {
                 <li class='p-4 border-b border-white'>HOME</li>
                 <li class='p-4 border-b border-white'>SERVICES</li>
                 <li class='p-4 border-b border-white'>ABOUT</li>
-                <li class='p-4 border-b border-white'>CAREER</li>
                 <li class='p-4 border-b border-white'>CONTACT</li>
                 <li class='p-4 border-b border-white'>LOGIN</li>
                 </ul>
